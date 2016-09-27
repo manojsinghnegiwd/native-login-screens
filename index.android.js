@@ -12,10 +12,13 @@ import {
   View
 } from 'react-native';
 
+import FullBg from './Screens/FullBg/FullBg'
+
 class native_login_screens extends Component {
   render() {
     return (
       <View>
+        <FullBg />
       </View>
     );
   }
