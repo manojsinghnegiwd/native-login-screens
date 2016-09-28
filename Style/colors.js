@@ -1,3 +1,5 @@
-const colors = {
-	red: '#E57373'
+const Colors = {
+	red: '#D32F2F'
 };
+
+export default Colors;
