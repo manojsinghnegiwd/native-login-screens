@@ -5,8 +5,9 @@ import Colors from '../../Style/colors';
 class FullBg extends Component {
 	render() {
 		return (
-			<Image source={require('../../assets/bg.jpg')} style={styles.bg}>
+			<Image source={require('../../assets/FullBg.jpeg')} style={styles.bg}>
 				<View style={styles.cover}>
+					<Text style={styles.h1}> Login </Text>
 				</View>
 			</Image>
 		);
@@ -21,6 +22,10 @@ const styles = StyleSheet.create({
 		flex: 1,
 		backgroundColor: Colors.red,
 		opacity: 0.8
+	},
+	h1: {
+		fontSize: 30,
+		color: Colors.white
 	}
 });
 
